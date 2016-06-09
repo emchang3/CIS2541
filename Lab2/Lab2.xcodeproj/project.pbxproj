@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		036867531D09EDBA00688BC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 036867521D09EDBA00688BC3 /* main.cpp */; };
+		0368675B1D09F75900688BC3 /* PC1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 036867591D09F75900688BC3 /* PC1.cpp */; };
+		0368675E1D09F7C200688BC3 /* PC5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0368675C1D09F7C200688BC3 /* PC5.cpp */; };
+		036867611D0A01B300688BC3 /* PC10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0368675F1D0A01B300688BC3 /* PC10.cpp */; };
+		036867641D0A0E4200688BC3 /* PC14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 036867621D0A0E4100688BC3 /* PC14.cpp */; };
+		036867671D0A0E4C00688BC3 /* PC15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 036867651D0A0E4C00688BC3 /* PC15.cpp */; };
+		0368676A1D0A0E5A00688BC3 /* PC16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 036867681D0A0E5A00688BC3 /* PC16.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		0368674F1D09EDBA00688BC3 /* Lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab2; sourceTree = BUILT_PRODUCTS_DIR; };
 		036867521D09EDBA00688BC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		036867591D09F75900688BC3 /* PC1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PC1.cpp; sourceTree = "<group>"; };
+		0368675A1D09F75900688BC3 /* PC1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PC1.hpp; sourceTree = "<group>"; };
+		0368675C1D09F7C200688BC3 /* PC5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PC5.cpp; sourceTree = "<group>"; };
+		0368675D1D09F7C200688BC3 /* PC5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PC5.hpp; sourceTree = "<group>"; };
+		0368675F1D0A01B300688BC3 /* PC10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PC10.cpp; sourceTree = "<group>"; };
+		036867601D0A01B300688BC3 /* PC10.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PC10.hpp; sourceTree = "<group>"; };
+		036867621D0A0E4100688BC3 /* PC14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PC14.cpp; sourceTree = "<group>"; };
+		036867631D0A0E4200688BC3 /* PC14.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PC14.hpp; sourceTree = "<group>"; };
+		036867651D0A0E4C00688BC3 /* PC15.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PC15.cpp; sourceTree = "<group>"; };
+		036867661D0A0E4C00688BC3 /* PC15.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PC15.hpp; sourceTree = "<group>"; };
+		036867681D0A0E5A00688BC3 /* PC16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PC16.cpp; sourceTree = "<group>"; };
+		036867691D0A0E5A00688BC3 /* PC16.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PC16.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				036867521D09EDBA00688BC3 /* main.cpp */,
+				036867591D09F75900688BC3 /* PC1.cpp */,
+				0368675A1D09F75900688BC3 /* PC1.hpp */,
+				0368675C1D09F7C200688BC3 /* PC5.cpp */,
+				0368675D1D09F7C200688BC3 /* PC5.hpp */,
+				0368675F1D0A01B300688BC3 /* PC10.cpp */,
+				036867601D0A01B300688BC3 /* PC10.hpp */,
+				036867621D0A0E4100688BC3 /* PC14.cpp */,
+				036867631D0A0E4200688BC3 /* PC14.hpp */,
+				036867651D0A0E4C00688BC3 /* PC15.cpp */,
+				036867661D0A0E4C00688BC3 /* PC15.hpp */,
+				036867681D0A0E5A00688BC3 /* PC16.cpp */,
+				036867691D0A0E5A00688BC3 /* PC16.hpp */,
 			);
 			path = Lab2;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036867671D0A0E4C00688BC3 /* PC15.cpp in Sources */,
+				0368675E1D09F7C200688BC3 /* PC5.cpp in Sources */,
+				036867611D0A01B300688BC3 /* PC10.cpp in Sources */,
+				0368675B1D09F75900688BC3 /* PC1.cpp in Sources */,
 				036867531D09EDBA00688BC3 /* main.cpp in Sources */,
+				036867641D0A0E4200688BC3 /* PC14.cpp in Sources */,
+				0368676A1D0A0E5A00688BC3 /* PC16.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
