@@ -20,6 +20,10 @@ int main ()
 
   cout << "PtR33" << endl << endl;
   PtR33 algObj;
-  cout << "y = " << algObj.calculate() << endl;
+  cout << "y = " << algObj.calculate() << endl << endl;
+
+  cin.ignore();
+  cin.get();
+
   return 0;
 }

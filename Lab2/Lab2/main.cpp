@@ -40,6 +40,8 @@ int main ()
   cout << "PC16: Diamond Pattern." << endl << endl;
   PC16 pc16;
   pc16.diamond();
-  
+
+  cin.get();
+
   return 0;
 }
