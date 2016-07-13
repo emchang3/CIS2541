@@ -10,6 +10,8 @@
 		03C068F81D3349FE002907AB /* ezra_lab9_pc1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C068F71D3349FE002907AB /* ezra_lab9_pc1.cpp */; };
 		03C068FF1D3351A0002907AB /* ezra_lab9_pc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C068FE1D3351A0002907AB /* ezra_lab9_pc2.cpp */; };
 		03C069011D33ACCE002907AB /* ezra_lab9_pc4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C069001D33ACCE002907AB /* ezra_lab9_pc4.cpp */; };
+		03C069161D361ACE002907AB /* ezra_lab9_pc5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C069151D361ACE002907AB /* ezra_lab9_pc5.cpp */; };
+		03C069181D361DA8002907AB /* ezra_lab9_pc11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C069171D361DA8002907AB /* ezra_lab9_pc11.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		03C068F71D3349FE002907AB /* ezra_lab9_pc1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ezra_lab9_pc1.cpp; sourceTree = "<group>"; };
 		03C068FE1D3351A0002907AB /* ezra_lab9_pc2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ezra_lab9_pc2.cpp; sourceTree = "<group>"; };
 		03C069001D33ACCE002907AB /* ezra_lab9_pc4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ezra_lab9_pc4.cpp; sourceTree = "<group>"; };
+		03C069151D361ACE002907AB /* ezra_lab9_pc5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ezra_lab9_pc5.cpp; sourceTree = "<group>"; };
+		03C069171D361DA8002907AB /* ezra_lab9_pc11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ezra_lab9_pc11.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				03C068F71D3349FE002907AB /* ezra_lab9_pc1.cpp */,
 				03C068FE1D3351A0002907AB /* ezra_lab9_pc2.cpp */,
 				03C069001D33ACCE002907AB /* ezra_lab9_pc4.cpp */,
+				03C069151D361ACE002907AB /* ezra_lab9_pc5.cpp */,
+				03C069171D361DA8002907AB /* ezra_lab9_pc11.cpp */,
 			);
 			path = Lab9;
 			sourceTree = "<group>";
@@ -126,6 +132,8 @@
 			files = (
 				03C068F81D3349FE002907AB /* ezra_lab9_pc1.cpp in Sources */,
 				03C069011D33ACCE002907AB /* ezra_lab9_pc4.cpp in Sources */,
+				03C069181D361DA8002907AB /* ezra_lab9_pc11.cpp in Sources */,
+				03C069161D361ACE002907AB /* ezra_lab9_pc5.cpp in Sources */,
 				03C068FF1D3351A0002907AB /* ezra_lab9_pc2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +255,7 @@
 				03C068FD1D3349FE002907AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,41 +16,89 @@ using namespace std;
 
 void selection(int * unsortedInts, string * unsortedStrings, int NUM)
 {
-  int largest = unsortedInts[0];
-  int largestIndex = 0;
-  int upperLimit = NUM - 1;
-  int placeholder;
+  int * thing = unsortedInts;
+  int * addtnlRef = unsortedInts;
+  string * str = unsortedStrings;
+  string * addStrRef = unsortedStrings;
 
-  while (upperLimit >= 1)
+  int largIntVal = *thing;
+  int * largIntLoc = thing;
+  string largStrVal = *str;
+  string * largStrLoc = str;
+
+  int * upperLimit = &unsortedInts[NUM - 1];
+  string * strUpLim = &unsortedStrings[NUM - 1];
+  int limit = NUM - 1;
+  int intHolder;
+  string strHolder;
+
+  // cout << "---INITIAL---" << endl;
+  // for (int k = 0; k < NUM; k++) {
+  //   cout << unsortedInts[k] << endl;
+  // }
+  // cout << "-------------" << endl;
+
+  while (limit >= 1)
   {
-    for (int i = 0; i <= upperLimit; i++)
+    for (int i = 0; i <= limit; i++)
     {
-      if (unsortedInts[i] > largest)
+      if (*thing > largIntVal)
       {
-        largest = unsortedInts[i];
-        largestIndex = i;
+        largIntVal = *thing;
+        largIntLoc = thing;
+        largStrVal = *str;
+        largStrLoc = str;
       }
+      thing++;
+      str++;
     }
-    placeholder = unsortedInts[upperLimit];
-    unsortedInts[upperLimit] = largest;
-    unsortedInts[largestIndex] = placeholder;
-    upperLimit -= 1;
-    largest = unsortedInts[0];
-    largestIndex = 0;
+    thing = addtnlRef;
+    str = addStrRef;
+
+    intHolder = *upperLimit;
+    strHolder = *strUpLim;
+
+    *upperLimit = largIntVal;
+    *strUpLim = largStrVal;
+
+    *largIntLoc = intHolder;
+    *largStrLoc = strHolder;
+
+    upperLimit--;
+    strUpLim--;
+
+    limit -= 1;
+    largIntVal = *thing;
+    largIntLoc = thing;
+    largStrVal = *str;
+    largStrLoc = str;
   }
 
   cout << endl << "Scores in ascending order:" << endl << "-------------------------" << endl;
   for (int k = 0; k < NUM; k++) {
-    cout << unsortedInts[k] << endl;
+    cout << unsortedStrings[k] << ": " << unsortedInts[k] << endl;
   }
+}
+
+void average(int * scores, int length)
+{
+  double sum = 0;
+  double number = (double)length;
+  for (int l = 0; l < length; l++)
+  {
+    sum += (double) *scores;
+    scores++;
+  }
+  cout << endl << "Average score: " << endl << "-------------------------" << endl;
+  cout << sum / number << endl;
 }
 
 void takeInput()
 {
+  cout << "(Enter a negatve score after finished entering grades)." << endl;
   int max = 1;
   int * intArray = new int[max];
   string * stringArray = new string[max];
-  // unique_ptr<int[]> intArray(new int[max]);
   int i = 0;
   int intInput;
   string stringInput;
@@ -70,7 +118,6 @@ void takeInput()
       max += 1;
       int * temp = new int[max];
       string * temp2 = new string[max];
-      // unique_ptr<int[]> temp(new int[max]);
       for (int j = 0; j < i; j++)
       {
         temp[j] = intArray[j];
@@ -80,7 +127,9 @@ void takeInput()
       // delete [] intArray;
       intArray = temp;
       stringArray = temp2;
-      delete [] temp;
+      // Deleting these pointers have deleterious effects. I must be doing it at the wrong time.
+      // delete [] temp;
+      // delete [] temp2;
     }
 
     cout << "Enter name: ";
@@ -89,14 +138,8 @@ void takeInput()
     cin >> intInput;
   }
 
-  // for (size_t gh = 0; gh < i; gh++) {
-  //   cout << *stringArray << endl;
-  //   cout << *intArray << endl;
-  //   intArray++;
-  //   stringArray++;
-  // }
-	// selection(intArray, i);
-  // average(intArray, i);
+	selection(intArray, stringArray, i);
+  average(intArray, i);
 }
 
 int main()
