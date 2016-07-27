@@ -19,10 +19,7 @@ class Coin
   public:
     void toss();
     Coin();
-    void getSideUp();
-    void showTallies();
+    string getSideUp();
   private:
     string sideUp;
-    int heads;
-    int tails;
 };

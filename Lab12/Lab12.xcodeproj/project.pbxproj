@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E32B661D45EC7E00C33626 /* ezra_lab12_ch13pc12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03E32B651D45EC7E00C33626 /* ezra_lab12_ch13pc12.cpp */; };
+		03E32B661D45EC7E00C33626 /* ezra_lab13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03E32B651D45EC7E00C33626 /* ezra_lab13.cpp */; };
 		03E32B701D45F28F00C33626 /* Coin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03E32B6E1D45F28F00C33626 /* Coin.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		03E32B621D45EC7E00C33626 /* Lab12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab12; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E32B651D45EC7E00C33626 /* ezra_lab12_ch13pc12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ezra_lab12_ch13pc12.cpp; sourceTree = "<group>"; };
+		03E32B651D45EC7E00C33626 /* ezra_lab13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ezra_lab13.cpp; sourceTree = "<group>"; };
 		03E32B6E1D45F28F00C33626 /* Coin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coin.cpp; sourceTree = "<group>"; };
 		03E32B6F1D45F28F00C33626 /* Coin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Coin.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 		03E32B641D45EC7E00C33626 /* Lab12 */ = {
 			isa = PBXGroup;
 			children = (
-				03E32B651D45EC7E00C33626 /* ezra_lab12_ch13pc12.cpp */,
+				03E32B651D45EC7E00C33626 /* ezra_lab13.cpp */,
 				03E32B6E1D45F28F00C33626 /* Coin.cpp */,
 				03E32B6F1D45F28F00C33626 /* Coin.hpp */,
 			);
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E32B701D45F28F00C33626 /* Coin.cpp in Sources */,
-				03E32B661D45EC7E00C33626 /* ezra_lab12_ch13pc12.cpp in Sources */,
+				03E32B661D45EC7E00C33626 /* ezra_lab13.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +245,7 @@
 				03E32B6B1D45EC7E00C33626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
